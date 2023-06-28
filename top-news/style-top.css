@@ -1,0 +1,199 @@
+@import url(../public/font-source.css);
+
+::selection{
+    background-color: #18188ac5;
+    color: #fefefe;
+}
+ul.menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #18188ac5;
+    overflow: hidden;
+}
+li#a{
+    float:right
+}
+li a {
+    color: white;
+    font-family: B Nazanin;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:rgb(36, 90, 206);
+    text-shadow: 4px 4px 6px black;
+} 
+span#span-header{
+    color: azure;
+    font-size: 282%;
+    font-family: B Nazanin;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    background-color: #18188ac5;
+}
+p#p-header{
+    color: #18188ac5; 
+    font-size: 197%;
+    text-align: center;
+    font-family: B Nazanin;
+}
+img#img-tasvir-donya{
+    display: block;
+    margin: 101px auto;
+    width: 60%;
+}
+div#darbare-div{
+    color: white;
+    background-color: rgb(32, 68, 225); 
+    border: 3px solid rgb(6, 6, 74);
+    padding: 20px;
+    width: 30%;
+    direction: rtl;
+    margin: auto;
+    font-size: 169%;
+    text-align: justify;
+    font-family: B Nazanin;
+}
+span#darbare-span{
+    display: block;
+    border: 1px solid #18188ac5;
+    padding: 11px;
+    color: #18188ac5;
+    text-align: center;
+    font-size: 249%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img#logo{
+    width: 150px;
+    display: block;
+    margin: auto;
+    height: 150px;
+}
+p#p-ghare{
+    color: #323279;
+    font-family: IranNastaliq;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 60px;
+}
+p#p-ghare i {
+    color: dark#18188ac5;
+}
+div#darbare-div2{
+    background-color:#1c84c6;
+    color:black;
+    border: 3px solid black;
+    padding: 7px;
+    margin: auto;
+    width: 74%;
+    height: 300px;
+    direction: rtl;
+    font-size: 194%;
+    text-align: justify;
+    font-family: B Nazanin;
+    overflow: auto;
+}
+span.span-name{
+    color: rgb(68, 6, 126);
+}
+img.logo{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+a#a-travel-to-test{
+    font-size: 50px;
+    font-family: IranNastaliq;
+    text-decoration: none;
+    color: #1c84c6;
+    display: block;
+    text-align: center;
+}
+a#a-travel-to-test:hover{
+    text-shadow: 5px 5px 10px black;
+}
+a#a-travel-to-test:active{
+    text-shadow: 5px 5px 5px black;
+}
+span#news{
+    display: block;
+    color: #FAEAD3;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Niconne;
+    text-shadow: 5px 5px #D42F27 , 10px 10px #E69135 , 15px 15px #49B98E , 20px 20px #0B7E6F , 25px 25px #05272F;
+    font-size: 1362%;
+    cursor: pointer;
+}
+body#body-akhbar{
+    background-color: #C1163A;
+}
+div#hint-box{
+    width: 57%;
+    background-color: #1c84c6;
+    padding: 10px;
+    border: 6px groove #18188ac5;
+    margin: auto;
+    margin-bottom: 70px;
+}
+p.hint{
+    font: 20px black;
+    text-align: justify;
+    direction: rtl;
+    font-family: B Nazanin;
+}
+button{
+    border-radius: 20px;
+    background-color: aqua;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aquamarine;
+    text-shadow: 3px 3px 3px black;
+}
+img#ghare{
+    display: block;
+    margin: 0 auto;
+    border: 2px dotted #18188ac5;
+}
+
+@media only screen and (max-width: 670px) {
+    /* For mobile phone : */
+    div#darbare-div{
+        font-size: 85%;
+    }
+    span#darbare-span{
+        font-size: 116%;
+    }
+    div#darbare-div2{
+        font-size: 142%;
+    }
+    span#news{
+        font-size: 1262%;
+    }
+    p#p-ghare{
+        font-size: 18px !important;
+    }
+    a#a-travel-to-test{
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    p#p-ghare{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    /* For tablets */
+    a#a-travel-to-test{
+        font-size: 39px;
+    }
+}

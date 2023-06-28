@@ -1,0 +1,18 @@
+@font-face{
+    font-family: Niconne;
+    src: url('niconne/Niconne-Regular.eot') format('eot');
+    src: url('niconne/Niconne-Regular.ttf') format('ttf');
+    src: url('niconne/Niconne-Regular.woff') format('woff');
+}
+@font-face{
+    font-family: IranNastaliq;
+    src: url(IranNastaliq/IranNastaliq.eot) format('eot');
+    src: url(IranNastaliq/IranNastaliq.ttf) format('ttf');
+    src: url(IranNastaliq/IranNastaliq.woff) format('woff');
+}
+@font-face {
+    font-family: B Nazanin;
+    src: url(B-nazanin/BNAZANB.eot) format('eot');
+    src: url(B-nazanin/BNazanin.ttf) format('ttf');
+    src: url(B-nazanin/BNazanin.woff) format('woff');
+}

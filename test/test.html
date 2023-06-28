@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-test.css">
+    <link rel="stylesheet" href="../public/font-awesome-4.7.0/css/font-awesome.min.css">
+    <title>صفحه اول فرم</title>
+</head>
+<body id="body-test">
+
+    <nav>
+        <ul class="menu">
+            <li id="f"><a href="home.html"><i class="fa fa-home"></i> خانه</a></li>
+            <li><a href="darbare.html"><i class="fa fa-address-book"></i> درباره ما</a></li>
+            <li><a href="amozesh.html"><i class="fa fa-question-circle-o"></i> آموزش</a></li>
+            <li><a href="sazande.html"><i class="fa fa-briefcase"></i> سازندگان</a></li>
+            <li><a href="map.html"><i class="fa fa-map-marker"></i> ایران</a></li>
+            <li><a href="pass-to-topnews.html"><i class="fa fa-newspaper-o"></i> اخبار</a></li>
+        </ul>
+    </nav>
+    
+    <h2 id="start">فرم استخدام</h2>
+    
+    <form action="next.html">
+
+    <p class="form-hint">
+ابتدا ایمیل و پسورد را وارد کنید <i class="	fa fa-address-card-o"></i>
+    </p>
+
+    <input type="email"placeholder="ایمیل" required minlength="15"><br><br>
+    <input type="password"placeholder="گذرواژه" required minlength="8"><br><br>
+    <label>شماره تلفن</label>
+    <input type="tel" placeholder="تلفن" value="09" required maxlength="11" minlength="11"><br><br>
+    <p class="form-hint">
+    آدرس منزل را در کادر وارد کنید <i class="fa fa-map-marker"></i>
+    </p>
+
+    <textarea  cols="30" rows="10" placeholder="آدرس" required></textarea><br><br>
+    <p class="form-hint">زمانی که می توانید کار کنید را وارد کنید</p><br>
+    <label>از</label>
+    <input type="time"><br>
+    <label>تا</label>
+    <input type="time">
+
+    <p class="form-hint">
+    متولد چه سالی هستید؟
+    </p>
+    <input type="date">
+
+    <p class="form-hint">
+    استان خود را انتخاب نمایید 
+    </p>
+<select>
+    <option value="اذربایجان شرقی" id="option-ostan">اذربایجان شرقی</option>
+    <option value="اذربایجان غربی" class="option-ostan">اذربایجان غربی</option>
+    <option value="اردبیل" class="option-ostan">اردبیل</option>
+    <option value="اصفهان" class="option-ostan">اصفهان</option>
+    <option value="البرز" class="option-ostan">البرز</option>
+    <option value="ایلام" class="option-ostan">ایلام</option>
+    <option value="بوشهر" class="option-ostan">بوشهر</option>
+    <option value="تهران" class="option-ostan">تهران</option>
+    <option value="چهارمحال بختیاری" class="option-ostan">چهارمحال بختیاری</option>
+    <option value="خراسان جنوبی" class="option-ostan">خراسان جنوبی</option>
+    <option value="خراسان رضوی" class="option-ostan">خراسان رضوی</option>
+    <option value="خراسان شمالی" class="option-ostan">خراسان شمالی</option>
+    <option value="خوزستان" class="option-ostan">خوزستان</option>
+    <option value="زنجان" class="option-ostan">زنجان</option>
+    <option value="سمنان" class="option-ostan">سمنان</option>
+    <option value="سیستان و بلوچستان" class="option-ostan">سیستان و بلوچستان</option>
+    <option value="فارس" class="option-ostan">فارس</option>
+    <option value="قزوین" class="option-ostan">قزوین</option>
+    <option value="قم" class="option-ostan">قم</option>
+    <option value="کردستان" class="option-ostan">کردستان</option>
+    <option value="کرمان" class="option-ostan">کرمان</option>
+    <option value="کرمانشاه" class="option-ostan">کرمانشاه</option>
+    <option value="کهکیلوی و بویراحمد" class="option-ostan">کهکیلوی و بویراحمد</option>
+    <option value="گلستان" class="option-ostan">گستان</option>
+    <option value="گیلان" class="option-ostan">گیلان</option>
+    <option value="لرستان" class="option-ostan">لرستان</option>
+    <option value="مازندران" class="option-ostan">مازندران</option>
+    <option value="مرکزی" class="option-ostan">مرکزی</option>
+    <option value="هرمزگان" class="option-ostan">هرمزگان</option>
+    <option value="همدان" class="option-ostan">همدان</option>
+    <option value="یزد" class="option-ostan">یزد</option>
+    </select>
+
+    <p class="form-hint">
+        رنگ مورد علاقه خود را انتخاب کنید (روانشناسی)
+    </p>
+    <input type="color"><br><br>
+
+    <p class="form-hint">
+        درجه سلامتی خود را انتخاب کنید
+    </p>
+     <label>بالا</label><input type="range"><label>کم</label>
+
+     <p class="form-hint">
+        از بین این موارد برای کدام از این شغل 
+        ها آماده هستید
+        <br>(می توانید چند شغل انتخاب کنید)
+    </p>
+
+    <label>کامپیوتری</label>
+    <input type="checkbox"><br>
+
+    <label>پر تحرک</label>
+    <input type="checkbox"><br>
+
+    <label>پزشکی</label>
+    <input type="checkbox"><br>
+
+    <label>مربوط به ساختمان</label>
+    <input type="checkbox"><br>
+
+    <label>آشپزی</label>
+    <input type="checkbox"><br>
+
+    <label>کار در خانه</label>
+    <input type="checkbox"><br>
+
+
+    <p class="form-hint">
+       (با قالب عکس) لطفا رزومه خود را اینجا آپلود کنید
+    </p>
+    <label id="file-container">
+        <span id="file-txt">کلیک برای آپلود <i class="fa fa-upload"></i></span>
+        <input type="file" accept="image/png, image/jpg, image/gif, image/jpeg">
+    </label>
+
+    <p class="form-hint">
+        فایل شرایط را بررسی کنید اگر موافق بودید گزینه موافقم را انتخاب کنم
+    </p>
+        <a href="images-test/agreement.jpg" target="_blank" id="shariet-btn">دیدن شرایط</a>
+    <label for="checkbox">موافقم</label>
+    <input type="checkbox" required>
+    
+    <input type="submit" class="pro-btn2" value="بعدی">
+    <button type="reset" class="reset-btn">reset</button>
+
+    </form>
+</body>
+</html>
